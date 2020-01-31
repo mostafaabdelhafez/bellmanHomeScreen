@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		0637298A23DFA45000074A2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0637298923DFA45000074A2F /* Assets.xcassets */; };
 		0637298D23DFA45000074A2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0637298B23DFA45000074A2F /* LaunchScreen.storyboard */; };
 		0639F35823E0E36A001A92EB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0639F35723E0E36A001A92EB /* Extension.swift */; };
+		063A72DC23E36EC900A6C6E7 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A72DB23E36EC900A6C6E7 /* secondViewController.swift */; };
+		063A72DE23E36EDB00A6C6E7 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A72DD23E36EDB00A6C6E7 /* thirdViewController.swift */; };
+		063A72E023E36EF100A6C6E7 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063A72DF23E36EF100A6C6E7 /* fourthViewController.swift */; };
+		063F645A23E23149000A1F10 /* tableviewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F645923E23149000A1F10 /* tableviewHeader.swift */; };
+		063F645C23E2559F000A1F10 /* popupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F645B23E2559F000A1F10 /* popupVC.swift */; };
+		06401BEF23E2EE5F00B51B64 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06401BEE23E2EE5F00B51B64 /* Data.swift */; };
+		0645136323E19D0D00DC58CE /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645136223E19D0D00DC58CE /* homeViewController.swift */; };
+		0645136623E1C37300DC58CE /* parentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645136523E1C37300DC58CE /* parentCell.swift */; };
+		0645136823E1C59900DC58CE /* gridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645136723E1C59900DC58CE /* gridCell.swift */; };
+		E579400FA182F8FA3F97C0F3 /* Pods_BellmanHomeScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43892217063D2055EBAC8186 /* Pods_BellmanHomeScreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,18 @@
 		0637298C23DFA45000074A2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0637298E23DFA45000074A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0639F35723E0E36A001A92EB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		063A72DB23E36EC900A6C6E7 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		063A72DD23E36EDB00A6C6E7 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		063A72DF23E36EF100A6C6E7 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		063F645923E23149000A1F10 /* tableviewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewHeader.swift; sourceTree = "<group>"; };
+		063F645B23E2559F000A1F10 /* popupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupVC.swift; sourceTree = "<group>"; };
+		06401BEE23E2EE5F00B51B64 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0645136223E19D0D00DC58CE /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		0645136523E1C37300DC58CE /* parentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentCell.swift; sourceTree = "<group>"; };
+		0645136723E1C59900DC58CE /* gridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridCell.swift; sourceTree = "<group>"; };
+		43892217063D2055EBAC8186 /* Pods_BellmanHomeScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BellmanHomeScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4706C244EA5B3F3B62EDE2DF /* Pods-BellmanHomeScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellmanHomeScreen.release.xcconfig"; path = "Target Support Files/Pods-BellmanHomeScreen/Pods-BellmanHomeScreen.release.xcconfig"; sourceTree = "<group>"; };
+		CAC66496883A4A2761A24CB9 /* Pods-BellmanHomeScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellmanHomeScreen.debug.xcconfig"; path = "Target Support Files/Pods-BellmanHomeScreen/Pods-BellmanHomeScreen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E579400FA182F8FA3F97C0F3 /* Pods_BellmanHomeScreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				0637297F23DFA44A00074A2F /* BellmanHomeScreen */,
 				0637297E23DFA44A00074A2F /* Products */,
+				FADE596AFAD7776DAF8B1691 /* Pods */,
+				1AAE6129ACBF4DDC2615DD8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +83,12 @@
 		0637297F23DFA44A00074A2F /* BellmanHomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				06401BED23E2EE5000B51B64 /* Models */,
+				0645136423E1C35400DC58CE /* Views */,
+				0645136123E19CF000DC58CE /* Controllers */,
 				0639F35623E0E356001A92EB /* Utilitites */,
 				0637298023DFA44A00074A2F /* AppDelegate.swift */,
 				0637298223DFA44A00074A2F /* SceneDelegate.swift */,
-				0637298423DFA44A00074A2F /* ViewController.swift */,
 				0637298623DFA44A00074A2F /* Main.storyboard */,
 				0637298923DFA45000074A2F /* Assets.xcassets */,
 				0637298B23DFA45000074A2F /* LaunchScreen.storyboard */,
@@ -78,6 +105,54 @@
 			path = Utilitites;
 			sourceTree = "<group>";
 		};
+		06401BED23E2EE5000B51B64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06401BEE23E2EE5F00B51B64 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0645136123E19CF000DC58CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0645136223E19D0D00DC58CE /* homeViewController.swift */,
+				063F645B23E2559F000A1F10 /* popupVC.swift */,
+				063A72DB23E36EC900A6C6E7 /* secondViewController.swift */,
+				063A72DD23E36EDB00A6C6E7 /* thirdViewController.swift */,
+				063A72DF23E36EF100A6C6E7 /* fourthViewController.swift */,
+				0637298423DFA44A00074A2F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0645136423E1C35400DC58CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0645136523E1C37300DC58CE /* parentCell.swift */,
+				0645136723E1C59900DC58CE /* gridCell.swift */,
+				063F645923E23149000A1F10 /* tableviewHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AAE6129ACBF4DDC2615DD8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43892217063D2055EBAC8186 /* Pods_BellmanHomeScreen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADE596AFAD7776DAF8B1691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAC66496883A4A2761A24CB9 /* Pods-BellmanHomeScreen.debug.xcconfig */,
+				4706C244EA5B3F3B62EDE2DF /* Pods-BellmanHomeScreen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0637299123DFA45000074A2F /* Build configuration list for PBXNativeTarget "BellmanHomeScreen" */;
 			buildPhases = (
+				1DD3415C680ED6DBCF076344 /* [CP] Check Pods Manifest.lock */,
 				0637297923DFA44A00074A2F /* Sources */,
 				0637297A23DFA44A00074A2F /* Frameworks */,
 				0637297B23DFA44A00074A2F /* Resources */,
+				FFC4EA1D123DA5B2F7EC88E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,6 +221,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DD3415C680ED6DBCF076344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BellmanHomeScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC4EA1D123DA5B2F7EC88E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BellmanHomeScreen/Pods-BellmanHomeScreen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BellmanHomeScreen/Pods-BellmanHomeScreen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BellmanHomeScreen/Pods-BellmanHomeScreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0637297923DFA44A00074A2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -151,8 +270,17 @@
 			files = (
 				0637298523DFA44A00074A2F /* ViewController.swift in Sources */,
 				0637298123DFA44A00074A2F /* AppDelegate.swift in Sources */,
+				063A72DE23E36EDB00A6C6E7 /* thirdViewController.swift in Sources */,
 				0637298323DFA44A00074A2F /* SceneDelegate.swift in Sources */,
+				06401BEF23E2EE5F00B51B64 /* Data.swift in Sources */,
+				0645136623E1C37300DC58CE /* parentCell.swift in Sources */,
+				063F645C23E2559F000A1F10 /* popupVC.swift in Sources */,
+				0645136823E1C59900DC58CE /* gridCell.swift in Sources */,
+				063F645A23E23149000A1F10 /* tableviewHeader.swift in Sources */,
+				0645136323E19D0D00DC58CE /* homeViewController.swift in Sources */,
+				063A72DC23E36EC900A6C6E7 /* secondViewController.swift in Sources */,
 				0639F35823E0E36A001A92EB /* Extension.swift in Sources */,
+				063A72E023E36EF100A6C6E7 /* fourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,6 +422,7 @@
 		};
 		0637299223DFA45000074A2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC66496883A4A2761A24CB9 /* Pods-BellmanHomeScreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +441,7 @@
 		};
 		0637299323DFA45000074A2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4706C244EA5B3F3B62EDE2DF /* Pods-BellmanHomeScreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
